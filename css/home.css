@@ -82,7 +82,27 @@ ul i.fa.fa-chevron-right{
     padding-right: 20px;
 }
 /* het css category  */
-
+/* css .slider bar */
+.slidebar{
+    padding-top:30px;
+}
+.slidebar .col-md-8{
+    padding-right: 0;
+}
+.slidebar .col-md-4{
+    padding-left: 5px;
+}
+.banner-right{
+    display: flex;
+    flex-direction: column;
+}
+.banner-right-item img{
+    width:350px;
+    height:180px;
+}
+.banner-right-item-2{
+    margin-top:6px;
+}
 /* danhmucan */
 
 .categorycontent ul li ul li:first-child{
