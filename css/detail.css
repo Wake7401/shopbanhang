@@ -244,18 +244,6 @@ footer .header {
     margin-top: 10px;
 }
 
-.khoithongtin .rate {color: #D9D9D5;font-size: 14px;}
-
-.khoithongtin .rate .active {
-    color: #F5A623;
-}
-
-.khoithongtin .uudai .header {
-    margin-top: 5px;
-    padding: 10px 0px 2px 16px;
-    font-size: 13px;
-}
-
 .khoithongtin .header h4 {
     font-weight: 400;
     font-size: 22px;
@@ -309,46 +297,46 @@ footer .header {
     font-size: 13px;
 }
 
-.khoithongtin .uudai ul {
-    list-style: none;
-}
-
-.khoithongtin .uudai ul li::before {
-    content: "\2022";
-    color: #F5A623;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-    font-size:15px;
-}
-
-.khoithongtin .uudai li a {
-    color: gray;
-}
-
-.khoithongtin .uudai li {
-    margin-left: 33px;
-    margin-bottom: 5px;
-}
-
-.khoithongtin .uudai {
-    background: #FEF6E9;
-    border: 1px solid #F5A623;
-    border-radius: 5px;
-    font-size: 13px;
-}
-
 .khoithongtin .giaban {
+    font-size: 20px;
     margin-top: 7px;
 }
 
 .khoithongtin .giaban .giamoi {
     color: red;
     font-size: 26px;
+    top: 2px;
+    left: 100px;
     position: absolute;
-    top: 12px;
-    left: 149px;
+}
+
+.cotthongtin label {
+    color: #757575;
+    width: 110px;
+    text-transform: capitalize;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.btn-cotthongtin{
+    overflow: visible;
+    cursor: pointer;
+    min-width: 5rem;
+    min-height: 2.125rem;
+    box-sizing: border-box;
+    padding: 0.25rem 0.75rem;
+    margin: 0 8px 8px 0;
+    color: rgba(0,0,0,.8);
+    text-align: left;
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,.09);
+    position: relative;
+    background: #fff;
+    outline: 0;
+    word-break: break-word;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* don vi tien  */
@@ -356,8 +344,8 @@ footer .header {
     color: red;
     font-size: 26px;
     position: absolute;
-    top: 12px;
-    left: 250px;
+    left: 210px;
+    top: -1px;
     font-weight: bold;
 }
 
@@ -405,6 +393,30 @@ footer .header {
 /*het css cho khoi thong tin cua product-page*/
 
 /* .product-description  */
+.chitiet{
+    display: flex;
+    margin-bottom: 1.125rem;
+}
+.chitiet label{
+    color: rgba(0,0,0,.4);
+    font-size: .875rem;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 8.75rem;
+    padding-right: 0.75rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.motasanpham{
+    white-space: pre-wrap;
+    color: rgba(0,0,0,.8);
+    font-size: .875rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.7;
+}
+
 .formdanhgia .nutguibl {
     border: 1px solid #F7A623;
     color: #F7A623;

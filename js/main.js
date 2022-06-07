@@ -419,7 +419,6 @@ $(function () {
                             </div>
                             <div class="item-price ml-auto d-flex flex-column align-items-end">
                                 <div class="giamoi">${parseFloat(item.price).toFixed(3)} ₫</div>
-                                <div class="giacu">${parseFloat(item.old_price).toFixed(3)} ₫</div>
                                 <span class="remove mt-auto"><i class="far fa-trash-alt"></i></span>
                             </div>
                         </div>
@@ -457,9 +456,6 @@ $(function () {
                             <strong class="text-uppercase">Tổng cộng:</strong>
                             <p class="tongcong">${parseFloat(cartCost).toFixed(3)} ₫</p>
                         </div>
-                        <small class="note d-flex justify-content-end text-muted">
-                            (Giá đã bao gồm VAT)
-                        </small>
                     </div>
                 </div>
             </div>
